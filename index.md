@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## A Closer Look at Spatiotemporal Convolutions for Action Recognition
+by [Du Tran](http://www.cs.dartmouth.edu/~dutran), [Heng Wang](http://lear.inrialpes.fr/people/wang/), [Lorenzo Torresani](http://www.cs.dartmouth.edu/~lorenzo), [Jamie Ray](https://research.fb.com/people/ray-jamie), [Yann LeCun](http://yann.lecun.com/), and [Manohar Paluri](https://research.fb.com/people/paluri-manohar), [CVPR 2018] (http://cvpr2018.thecvf.com).
 
-You can use the [editor on GitHub](https://github.com/dutran/R2Plus1D/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### Abstract
+In this paper we discuss several forms of spatiotemporal convolutions for  video analysis and  study their effects  on
+action recognition. Our motivation stems from the observation that 2D CNNs applied to individual frames of the video
+have remained solid performers in action recognition. In this work we empirically demonstrate the accuracy advantages of 3D CNNs over 2D CNNs within the framework of residual learning.  Furthermore,  we show that factorizing the 3D convolutional filters into separate spatial and temporal components yields significantly gains in accuracy.  Our empirical study leads to the design of a new spatiotemporal convolutional block “R(2+1)D” which produces CNNs that
+achieve results comparable or superior to the state-of-the-art on Sports-1M, Kinetics, UCF101, and HMDB51.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dutran/R2Plus1D/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
