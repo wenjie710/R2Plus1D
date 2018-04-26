@@ -1,7 +1,7 @@
 ## A Closer Look at Spatiotemporal Convolutions for Action Recognition
 by [Du Tran](http://www.cs.dartmouth.edu/~dutran), [Heng Wang](http://lear.inrialpes.fr/people/wang/), [Lorenzo Torresani](http://www.cs.dartmouth.edu/~lorenzo), [Jamie Ray](https://research.fb.com/people/ray-jamie), [Yann LeCun](http://yann.lecun.com/), and [Manohar Paluri](https://research.fb.com/people/paluri-manohar), CVPR 2018.
 
-![r2plus1d1](https://github.com/dutran/R2Plus1D/images/r2plus1d.png)
+![r2plus1d1](https://github.com/dutran/R2Plus1D/r2plus1d.png)
 
 ### Abstract
 In this paper we discuss several forms of spatiotemporal convolutions for  video analysis and  study their effects  on
